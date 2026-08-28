@@ -36,13 +36,13 @@ public class Venda {
 	public double getTroco(){
 		return pagamento.getValorPago() - getTotal();
 	}
-
+				// alterar pacote
 	public void criarItemVenda(int quantidade, Produto produto){
 		ItemVenda itemVenda = new ItemVenda(quantidade, produto);
 		this.itemsVenda.add(itemVenda);
 	}
 	
-
+			// alterar pacote
 	public void efetuarPagamento(double valorRecebido, int tipoPagamento){
 		//pagamento = new Model.Pagamento.Pagamento(valorRecebido);
 
