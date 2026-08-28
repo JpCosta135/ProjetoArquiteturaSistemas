@@ -15,7 +15,6 @@ public class ControladorRealizarVenda {
 	
 	public void entrarItem(String cod_barra, int quantidade){
 		Produto produto = catalogoProdutos.consultarProduto(cod_barra);
-		
 		if (produto != null){
 			venda.criarItemVenda(quantidade, produto);
 		}
