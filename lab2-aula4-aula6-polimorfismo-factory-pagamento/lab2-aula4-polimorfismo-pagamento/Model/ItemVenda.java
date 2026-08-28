@@ -9,8 +9,7 @@ public class ItemVenda {
 		this.quantidade = quantidade;
 		this.produto = produto;
 	}
-	
-	
+
 	public int getQuantidade() {
 		return quantidade;
 	}
