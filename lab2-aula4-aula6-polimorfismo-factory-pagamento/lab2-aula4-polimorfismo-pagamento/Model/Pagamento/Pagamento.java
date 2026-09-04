@@ -6,7 +6,6 @@ public abstract class Pagamento {
 	public Pagamento(double valorPago){
 		this.valorPago = valorPago;
 	}
-
 	public double getValorPago() {
 		return valorPago;
 	}

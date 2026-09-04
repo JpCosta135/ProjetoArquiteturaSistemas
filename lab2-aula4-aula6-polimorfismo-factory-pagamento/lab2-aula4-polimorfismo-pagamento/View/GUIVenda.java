@@ -17,6 +17,7 @@ public class GUIVenda {
 		controladorVenda.entrarItem("001", 3);
 		controladorVenda.entrarItem("002", 1);
 		controladorVenda.entrarItem("003", 2);
+
 		controladorVenda.registrarPagamento(500, 2);
 		
 		System.out.println("Total = " + venda.getTotal());
